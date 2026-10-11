@@ -1,3 +1,4 @@
+github.com/GustavoTonial/Pirate-battle-JungleGaming
 # Pirate Battle
 
 Top-down naval shooter built with **React + TypeScript (strict) + PixiJS**. Ranking and match history use a REST API
