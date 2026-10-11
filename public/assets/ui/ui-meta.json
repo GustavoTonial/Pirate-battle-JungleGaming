@@ -1,0 +1,467 @@
+{
+ "panel_menu": {
+  "w": 384,
+  "h": 480,
+  "borders": {
+   "left": 32.0,
+   "top": 40.0,
+   "right": 32.0,
+   "bottom": 40.0
+  },
+  "layout": {
+   "content_rect": {
+    "x": 26.0,
+    "y": 30.0,
+    "w": 332.0,
+    "h": 420.0
+   }
+  }
+ },
+ "title_pirate_battle": {
+  "w": 384,
+  "h": 128,
+  "borders": null,
+  "layout": null
+ },
+ "button_primary_disabled": {
+  "w": 256,
+  "h": 88,
+  "borders": null,
+  "layout": {
+   "group": "menu_button",
+   "outer_rect": {
+    "x": 8.0,
+    "y": 4.0,
+    "w": 240.0,
+    "h": 80.0
+   },
+   "label_rect": {
+    "x": 32.5,
+    "y": 19.5,
+    "w": 191.0,
+    "h": 46.5
+   }
+  }
+ },
+ "button_primary_hover": {
+  "w": 256,
+  "h": 88,
+  "borders": null,
+  "layout": {
+   "group": "menu_button",
+   "outer_rect": {
+    "x": 8.0,
+    "y": 4.0,
+    "w": 240.0,
+    "h": 80.0
+   },
+   "label_rect": {
+    "x": 32.5,
+    "y": 19.5,
+    "w": 191.0,
+    "h": 46.5
+   }
+  }
+ },
+ "button_primary_normal": {
+  "w": 256,
+  "h": 88,
+  "borders": null,
+  "layout": {
+   "group": "menu_button",
+   "outer_rect": {
+    "x": 8.0,
+    "y": 4.0,
+    "w": 240.0,
+    "h": 80.0
+   },
+   "label_rect": {
+    "x": 32.5,
+    "y": 19.5,
+    "w": 191.0,
+    "h": 46.5
+   }
+  }
+ },
+ "button_primary_pressed": {
+  "w": 256,
+  "h": 88,
+  "borders": null,
+  "layout": {
+   "group": "menu_button",
+   "outer_rect": {
+    "x": 8.0,
+    "y": 4.0,
+    "w": 240.0,
+    "h": 80.0
+   },
+   "label_rect": {
+    "x": 32.5,
+    "y": 19.5,
+    "w": 191.0,
+    "h": 46.5
+   }
+  }
+ },
+ "button_secondary_normal": {
+  "w": 256,
+  "h": 88,
+  "borders": null,
+  "layout": {
+   "group": "menu_button",
+   "outer_rect": {
+    "x": 8.0,
+    "y": 4.0,
+    "w": 240.0,
+    "h": 80.0
+   },
+   "label_rect": {
+    "x": 32.5,
+    "y": 19.5,
+    "w": 191.0,
+    "h": 46.5
+   }
+  }
+ },
+ "button_secondary_pressed": {
+  "w": 256,
+  "h": 88,
+  "borders": null,
+  "layout": {
+   "group": "menu_button",
+   "outer_rect": {
+    "x": 8.0,
+    "y": 4.0,
+    "w": 240.0,
+    "h": 80.0
+   },
+   "label_rect": {
+    "x": 32.5,
+    "y": 19.5,
+    "w": 191.0,
+    "h": 46.5
+   }
+  }
+ },
+ "button_round_hover": {
+  "w": 64,
+  "h": 64,
+  "borders": null,
+  "layout": {
+   "group": "round_button",
+   "outer_rect": {
+    "x": 4.0,
+    "y": 4.0,
+    "w": 56.0,
+    "h": 56.0
+   },
+   "icon_center": {
+    "x": 32.0,
+    "y": 32.0
+   },
+   "icon_render_size": {
+    "w": 32.0,
+    "h": 32.0
+   }
+  }
+ },
+ "button_round_normal": {
+  "w": 64,
+  "h": 64,
+  "borders": null,
+  "layout": {
+   "group": "round_button",
+   "outer_rect": {
+    "x": 4.0,
+    "y": 4.0,
+    "w": 56.0,
+    "h": 56.0
+   },
+   "icon_center": {
+    "x": 32.0,
+    "y": 32.0
+   },
+   "icon_render_size": {
+    "w": 32.0,
+    "h": 32.0
+   }
+  }
+ },
+ "button_round_pressed": {
+  "w": 64,
+  "h": 64,
+  "borders": null,
+  "layout": {
+   "group": "round_button",
+   "outer_rect": {
+    "x": 4.0,
+    "y": 4.0,
+    "w": 56.0,
+    "h": 56.0
+   },
+   "icon_center": {
+    "x": 32.0,
+    "y": 32.0
+   },
+   "icon_render_size": {
+    "w": 32.0,
+    "h": 32.0
+   }
+  }
+ },
+ "counter_panel": {
+  "w": 160,
+  "h": 56,
+  "borders": null,
+  "layout": null
+ },
+ "health_fill_amber": {
+  "w": 256,
+  "h": 48,
+  "borders": null,
+  "layout": {
+   "group": "player_health",
+   "frame": "health_frame",
+   "fill_rect": {
+    "x": 30.0,
+    "y": 15.0,
+    "w": 196.0,
+    "h": 20.0
+   },
+   "clip_axis": "x",
+   "clip_origin": "left",
+   "draw_order": [
+    "frame",
+    "fill"
+   ]
+  }
+ },
+ "health_fill_green": {
+  "w": 256,
+  "h": 48,
+  "borders": null,
+  "layout": {
+   "group": "player_health",
+   "frame": "health_frame",
+   "fill_rect": {
+    "x": 30.0,
+    "y": 15.0,
+    "w": 196.0,
+    "h": 20.0
+   },
+   "clip_axis": "x",
+   "clip_origin": "left",
+   "draw_order": [
+    "frame",
+    "fill"
+   ]
+  }
+ },
+ "health_fill_red": {
+  "w": 256,
+  "h": 48,
+  "borders": null,
+  "layout": {
+   "group": "player_health",
+   "frame": "health_frame",
+   "fill_rect": {
+    "x": 30.0,
+    "y": 15.0,
+    "w": 196.0,
+    "h": 20.0
+   },
+   "clip_axis": "x",
+   "clip_origin": "left",
+   "draw_order": [
+    "frame",
+    "fill"
+   ]
+  }
+ },
+ "health_frame": {
+  "w": 256,
+  "h": 48,
+  "borders": null,
+  "layout": {
+   "group": "player_health",
+   "frame": "health_frame",
+   "fill_rect": {
+    "x": 30.0,
+    "y": 15.0,
+    "w": 196.0,
+    "h": 20.0
+   },
+   "clip_axis": "x",
+   "clip_origin": "left",
+   "draw_order": [
+    "frame",
+    "fill"
+   ]
+  }
+ },
+ "icon_close": {
+  "w": 48,
+  "h": 48,
+  "borders": null,
+  "layout": null
+ },
+ "icon_fire_front": {
+  "w": 48,
+  "h": 48,
+  "borders": null,
+  "layout": null
+ },
+ "icon_fire_left": {
+  "w": 48,
+  "h": 48,
+  "borders": null,
+  "layout": null
+ },
+ "icon_fire_right": {
+  "w": 48,
+  "h": 48,
+  "borders": null,
+  "layout": null
+ },
+ "icon_forward": {
+  "w": 48,
+  "h": 48,
+  "borders": null,
+  "layout": null
+ },
+ "icon_heart": {
+  "w": 48,
+  "h": 48,
+  "borders": null,
+  "layout": null
+ },
+ "icon_home": {
+  "w": 48,
+  "h": 48,
+  "borders": null,
+  "layout": null
+ },
+ "icon_minus": {
+  "w": 48,
+  "h": 48,
+  "borders": null,
+  "layout": null
+ },
+ "icon_pause": {
+  "w": 48,
+  "h": 48,
+  "borders": null,
+  "layout": null
+ },
+ "icon_play": {
+  "w": 48,
+  "h": 48,
+  "borders": null,
+  "layout": null
+ },
+ "icon_plus": {
+  "w": 48,
+  "h": 48,
+  "borders": null,
+  "layout": null
+ },
+ "icon_restart": {
+  "w": 48,
+  "h": 48,
+  "borders": null,
+  "layout": null
+ },
+ "icon_score": {
+  "w": 48,
+  "h": 48,
+  "borders": null,
+  "layout": null
+ },
+ "icon_settings": {
+  "w": 48,
+  "h": 48,
+  "borders": null,
+  "layout": null
+ },
+ "icon_time": {
+  "w": 48,
+  "h": 48,
+  "borders": null,
+  "layout": null
+ },
+ "icon_turn_left": {
+  "w": 48,
+  "h": 48,
+  "borders": null,
+  "layout": null
+ },
+ "icon_turn_right": {
+  "w": 48,
+  "h": 48,
+  "borders": null,
+  "layout": null
+ },
+ "enemy_health_fill_green": {
+  "w": 160,
+  "h": 40,
+  "borders": null,
+  "layout": {
+   "group": "enemy_health",
+   "frame": "enemy_health_frame",
+   "fill_rect": {
+    "x": 24.0,
+    "y": 12.0,
+    "w": 112.0,
+    "h": 15.0
+   },
+   "clip_axis": "x",
+   "clip_origin": "left",
+   "draw_order": [
+    "frame",
+    "fill"
+   ]
+  }
+ },
+ "enemy_health_fill_red": {
+  "w": 160,
+  "h": 40,
+  "borders": null,
+  "layout": {
+   "group": "enemy_health",
+   "frame": "enemy_health_frame",
+   "fill_rect": {
+    "x": 24.0,
+    "y": 12.0,
+    "w": 112.0,
+    "h": 15.0
+   },
+   "clip_axis": "x",
+   "clip_origin": "left",
+   "draw_order": [
+    "frame",
+    "fill"
+   ]
+  }
+ },
+ "enemy_health_frame": {
+  "w": 160,
+  "h": 40,
+  "borders": null,
+  "layout": {
+   "group": "enemy_health",
+   "frame": "enemy_health_frame",
+   "fill_rect": {
+    "x": 24.0,
+    "y": 12.0,
+    "w": 112.0,
+    "h": 15.0
+   },
+   "clip_axis": "x",
+   "clip_origin": "left",
+   "draw_order": [
+    "frame",
+    "fill"
+   ]
+  }
+ }
+}
